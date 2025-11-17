@@ -51,5 +51,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnRecyclerViewBasic = findViewById(R.id.btnRecyclerViewBasic);
+        btnRecyclerViewBasic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ute.ltm.ltm_bt03.recyclerview.RecyclerViewBasicActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
