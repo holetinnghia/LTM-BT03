@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,7 +17,7 @@
             android:id="@+id/btnListViewBasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="List View" />
+            android:text="List View Basic" />
 
         <Button
             android:id="@+id/btnListViewCustomAdapter"
@@ -28,7 +29,7 @@
             android:id="@+id/btnGridViewBasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Grid View" />
+            android:text="Grid View Basic" />
 
         <Button
             android:id="@+id/btnGridViewCustomAdapter"
@@ -40,13 +41,13 @@
             android:id="@+id/btnRecyclerViewBasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recycler View" />
+            android:text="Recycler View Basic" />
 
         <Button
             android:id="@+id/btnRecyclerViewMultiType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recycler View nhieu loai" />
+            android:text="Recycler View Multi Type" />
 
         <Button
             android:id="@+id/btnRecyclerViewAnimation"
