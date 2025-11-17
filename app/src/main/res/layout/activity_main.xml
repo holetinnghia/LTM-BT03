@@ -13,12 +13,6 @@
         android:padding="16dp">
 
         <Button
-            android:id="@+id/btn_sub_activity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Go to Sub Activity" />
-
-        <Button
             android:id="@+id/btnListViewBasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

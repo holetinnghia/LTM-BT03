@@ -24,5 +24,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnListViewCustom = findViewById(R.id.btnListViewCustomAdapter);
+        btnListViewCustom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ute.ltm.ltm_bt03.listview.ListViewCustomActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

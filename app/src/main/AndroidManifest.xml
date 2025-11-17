@@ -23,7 +23,11 @@
 
         <activity
             android:name=".listview.ListViewBasicActivity"
-            android:exported="false"/>
+            android:exported="false" />
+
+        <activity
+            android:name=".listview.ListViewCustomActivity"
+            android:exported="false" />
 
     </application>
 
