@@ -1,15 +1,13 @@
-package ute.ltm.ltm_bt03.model; //
+package ute.ltm.ltm_bt03.model;
 
 import java.io.Serializable;
 
-// (Trang 191)
 public class SongModel implements Serializable {
-    private String mCode; //
-    private String mTitle; //
-    private String mLyric; //
-    private String mArtist; //
+    private String mCode;
+    private String mTitle;
+    private String mLyric;
+    private String mArtist;
 
-    //TẠO CONSTRUCTOR, GETTER VÀ SETTER
     public SongModel(String mCode, String mTitle, String mLyric, String mArtist) {
         this.mCode = mCode;
         this.mTitle = mTitle;
