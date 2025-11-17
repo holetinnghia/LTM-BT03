@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_sub_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Sub Activity" />
+
+        <Button
+            android:id="@+id/btnListViewBasic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View" />
+
+        <Button
+            android:id="@+id/btnListViewCustomAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View Custom Adapter" />
+
+        <Button
+            android:id="@+id/btnGridViewBasic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid View" />
+
+        <Button
+            android:id="@+id/btnGridViewCustomAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid View Custom Adapter" />
+
+        <Button
+            android:id="@+id/RecyclerViewBasic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View" />
+
+        <Button
+            android:id="@+id/btnRecyclerViewMultiType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View nhieu loai" />
+
+        <Button
+            android:id="@+id/btnRecyclerViewAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View Animation" />
+
+    </LinearLayout>
+</ScrollView>
