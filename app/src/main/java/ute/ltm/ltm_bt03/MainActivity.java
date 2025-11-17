@@ -42,5 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnGridViewCustomAdapter = findViewById(R.id.btnGridViewCustomAdapter);
+        btnGridViewCustomAdapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ute.ltm.ltm_bt03.gridview.GridViewCustomActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
