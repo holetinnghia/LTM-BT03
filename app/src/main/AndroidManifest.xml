@@ -41,6 +41,10 @@
             android:name=".recyclerview.RecyclerViewBasicActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".recyclerview.RecyclerViewMultiTypeActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
