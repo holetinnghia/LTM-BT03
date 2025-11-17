@@ -29,6 +29,10 @@
             android:name=".listview.ListViewCustomActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".gridview.GridViewBasicActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

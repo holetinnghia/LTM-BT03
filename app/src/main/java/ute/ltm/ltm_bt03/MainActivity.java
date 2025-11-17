@@ -33,5 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnGridViewBasic = findViewById(R.id.btnGridViewBasic);
+        btnGridViewBasic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ute.ltm.ltm_bt03.gridview.GridViewBasicActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

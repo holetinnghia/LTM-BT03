@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:fitsSystemWindows="true"
     tools:context=".gridview.GridViewBasicActivity">
 
     <EditText
@@ -38,4 +39,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
-        android:numColumns="3" /> </LinearLayout>
+        android:numColumns="3" />
+</LinearLayout>
