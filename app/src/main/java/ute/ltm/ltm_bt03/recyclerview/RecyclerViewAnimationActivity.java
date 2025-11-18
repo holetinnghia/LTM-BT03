@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ute.ltm.ltm_bt03.R;
+import ute.ltm.ltm_bt03.adapter.CustomAnimationAdapter;
 
 public class RecyclerViewAnimationActivity extends AppCompatActivity {
 

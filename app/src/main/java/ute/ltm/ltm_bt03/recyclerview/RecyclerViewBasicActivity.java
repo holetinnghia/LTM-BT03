@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ute.ltm.ltm_bt03.R;
+import ute.ltm.ltm_bt03.adapter.SongAdapter;
 import ute.ltm.ltm_bt03.model.SongModel;
 
 public class RecyclerViewBasicActivity extends AppCompatActivity {

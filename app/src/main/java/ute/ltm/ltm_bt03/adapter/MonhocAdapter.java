@@ -1,4 +1,4 @@
-package ute.ltm.ltm_bt03.listview;
+package ute.ltm.ltm_bt03.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -6,7 +6,7 @@ import android.widget.GridView;
 import java.util.ArrayList;
 
 import ute.ltm.ltm_bt03.R;
-import ute.ltm.ltm_bt03.listview.MonhocAdapter;
+import ute.ltm.ltm_bt03.adapter.MonhocAdapter;
 import ute.ltm.ltm_bt03.model.MonHoc;
 
 public class GridViewCustomActivity extends AppCompatActivity {
